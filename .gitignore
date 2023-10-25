@@ -1,0 +1,6 @@
+# ignore .o files
+*.o
+# ignore .bin files
+*.bin
+# ignore emacs backup files
+*~
