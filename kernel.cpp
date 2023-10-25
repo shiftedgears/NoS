@@ -1,14 +1,13 @@
 
-void printf(char* str){ //our own printf function
+void printf(char* str){
 
-  unsigned short* VideoMemory = (unsigned short*)0xb8000;//start at the buffer beginning
+  unsigned short* VideoMemory = (unsigned short*)0xb8000;
 
   for(int i = 0; str[i] != '\0'; ++i)
-    VideoMemory[i] = (VideoMemory[i] & 0xFF00) | str[i]; //copy the high signal concatenated with the character to the video memory
+    VideoMemory[i] = (VideoMemory[i] & 0xFF00) | str[i];
   
 }
 
-//extern "C" is to make the function name explicit so that assembler can find it
 extern "C" void kernel_main(void* multiboot_structure, unsigned int magic_number){
 
     printf("Hello world");
