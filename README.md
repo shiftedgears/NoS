@@ -45,6 +45,8 @@ menuentry 'N Operating System' {
 
 to the end of the file.
 
+**NOTE** This only works for people with an Intel CPU as it's expecting an i836 archticture.
+
 ## Bugs
 
 ## License
