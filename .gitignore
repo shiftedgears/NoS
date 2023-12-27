@@ -2,5 +2,7 @@
 *.o
 # ignore .bin files
 *.bin
+# ignore .iso file
+*.iso
 # ignore emacs backup files
 *~
