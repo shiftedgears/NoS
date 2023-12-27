@@ -10,13 +10,14 @@ The N Operating System. My own opersating system following the online tutorial b
 
 ## Programs needed
 To be able to run the make files properly, you must have
+- gcc
 - g++
 - binutils
 - libc6-dev-i386
 
 If you're on linux this can be installed with 
 ``` sh
-sudo apt install g++ binutils libc6-dev-i386
+sudo apt install g++ gcc binutils libc6-dev-i386
 ```
 
 ## Compiling the kernel binary
