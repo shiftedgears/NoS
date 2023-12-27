@@ -22,7 +22,7 @@ SECTIONS
 		end_ctors = .;
 
 		*(.data)
-	}
+ 	}
 
 	.bss :
 	{
