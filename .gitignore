@@ -4,5 +4,7 @@
 *.bin
 # ignore .iso file
 *.iso
-# ignore emacs backup files
+# ignore emacs backup files - anything ending in ~
 *~
+# ignore kate swap files
+*.kate-swp

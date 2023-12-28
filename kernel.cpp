@@ -1,4 +1,5 @@
 #include "types.h"
+#include "gdt.h"
 
 void printf(char* str){
 
@@ -21,8 +22,10 @@ extern "C" void callConstructors(){
 
 extern "C" void kernel_main(const void* multiboot_structure, uint32_t magic_number){
 
-    printf("Hello world");
+    printf("Hello world - shiftedgears.github.io");
     
+    GlobalDescriptorTable gdt; //instantiate the GDT
+
     while(1); //leep the kernel active
     
 }
