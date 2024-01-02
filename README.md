@@ -30,7 +30,7 @@ in the terminal in the directory of NoS. The makefile will create all the .o fil
 ## Booting from Virtual Box
 To compile an ISO and boot from the Virtual Box, make sure you have the following package
 ``` sh
-sudo apt install xorriso
+sudo apt install xorriso mtools
 ```
 and that you have Virtual Box installed on our machine (obviously).
 Once all is installed, type
